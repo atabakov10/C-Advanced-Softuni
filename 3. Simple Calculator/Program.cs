@@ -1,30 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+
 namespace _3._Simple_Calculator
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            string expr = Console.ReadLine();
-            var stack = new Stack<int>();
-            for (int i = 0; i < expr.Length; i++)
-            {
-                char c = expr[i];
-                if (c == '(')
+
+            string[] input = Console.ReadLine().Split(' ').Reverse().ToArray();
+            Stack<string> stack = new Stack<string>();
+            foreach (var item in input)
+            {               
+                stack.Push(item);
+
+                for (int i = 1; i <= input.Length; i++)
                 {
-                    stack.Push(i);
-                }
-                else if (c == ')')
-                {
-                    int startIndex = stack.Pop();
-                    int endIndex = i;
-                    string subexpr = expr.Substring(startIndex, endIndex - startIndex + 1);
-                    Console.WriteLine(subexpr);
-                    
+                    if (i == )
+                    {
+                        //do smthng
+                    }
                 }
             }
-
+            
+            
         }
     }
 }
