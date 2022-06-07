@@ -1,1 +1,1 @@
-All of my codes for the CSharp Advanced ourse in Softuni are here.
+All of my codes for the CSharp Advanced course in Softuni are here.
