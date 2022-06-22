@@ -5,7 +5,11 @@ VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Masterchef", "01.Masterchef\01.Masterchef.csproj", "{A947B612-560B-499A-8173-4478F0020788}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Survivor", "02.Survivor\02.Survivor.csproj", "{60CAAEB7-D992-4386-9E9D-86343973B67E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.Survivor", "02.Survivor\02.Survivor.csproj", "{60CAAEB7-D992-4386-9E9D-86343973B67E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Bakery Shop", "01. Bakery Shop\01. Bakery Shop.csproj", "{8C874273-9DC5-4007-A12C-35A730E079D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T03.Zoo", "T03.Zoo\T03.Zoo.csproj", "{2973406F-81BE-4554-8C00-F512DC83861B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{60CAAEB7-D992-4386-9E9D-86343973B67E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60CAAEB7-D992-4386-9E9D-86343973B67E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60CAAEB7-D992-4386-9E9D-86343973B67E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C874273-9DC5-4007-A12C-35A730E079D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C874273-9DC5-4007-A12C-35A730E079D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C874273-9DC5-4007-A12C-35A730E079D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C874273-9DC5-4007-A12C-35A730E079D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2973406F-81BE-4554-8C00-F512DC83861B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2973406F-81BE-4554-8C00-F512DC83861B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2973406F-81BE-4554-8C00-F512DC83861B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2973406F-81BE-4554-8C00-F512DC83861B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
